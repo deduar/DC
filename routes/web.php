@@ -13,8 +13,8 @@
 
 Route::resource('/', 'RegistryController');
 
-
-
-Route::get('/thanks', function () {
+Route::get('thanks', function () {
     return 'Hello World';
 });
+
+Route::get('/uno', 'RegistryController@uno');
