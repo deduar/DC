@@ -29,7 +29,7 @@ class RegistryController extends Controller
         $registry->name = $request->name;
         $registry->email = $request->email;
         $registry->save();
-        return redirect('/thanks');
+        return redirect('/uno');
     }
 
     public function uno()
