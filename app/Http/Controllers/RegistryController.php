@@ -32,9 +32,4 @@ class RegistryController extends Controller
         return view ('registry.uno');
     }
 
-    public function uno()
-    {
-        echo "123";
-    }
-
 }

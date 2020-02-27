@@ -17,4 +17,4 @@ Route::resource('/', 'RegistryController');
 //    return 'Hello World';
 //});
 
-Route::get('/uno', 'RegistryController@uno');
+//Route::get('/uno', 'RegistryController@uno');
