@@ -29,7 +29,7 @@ class RegistryController extends Controller
         $registry->name = $request->name;
         $registry->email = $request->email;
         $registry->save();
-        return view ('registry.uno');
+        return view ('registry.thanks',['name' => $registry->name]);
     }
 
 }
