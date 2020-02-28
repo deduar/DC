@@ -6,9 +6,9 @@
         <div class="col-sm-12" style="text-align: center;">
         	<br>
             <h1>Gracias <i>{{$name}}</i> por registrarte</h1>
-            <h3>Pronte te contactaremos con los detalles del taler</h3>
+            <h3>Pronto te contactaremos para los detalles del taller</h3>
             <hr>
-            <h5>Cualquier duda nos puedes contactar a <a href="mailto: uno@gmail.com">uno@gmail.com</a></h5>
+            <h5>Cualquier duda nos puedes escribir a <a href="mailto: uno@gmail.com">uno@gmail.com</a></h5>
         </div>
     </div>
 </div>

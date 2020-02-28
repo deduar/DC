@@ -17,6 +17,11 @@ class CreateRegistriesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name', 255);
             $table->string('email', 255);
+            $table->string('mobil', 255);
+            $table->integer('horario');
+            $table->integer('localidad');
+            $table->integer('lenguaje');
+            $table->integer('so');
             $table->timestamps();
         });
     }

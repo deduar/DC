@@ -59,7 +59,7 @@
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="lenguaje">Lengaje</label>
-                        <select class="form-control" name="localidad">
+                        <select class="form-control" name="lenguaje">
                             <option value="0">En que lenguaje desarrollas normalmente</option>
                             <option value="1">PHP (Laravel, Symfony, CodeIgniter ...)</option>
                             <option value="2">Java (Spring, JEE)</option>
