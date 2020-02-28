@@ -17,11 +17,11 @@ class CreateRegistriesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name', 255);
             $table->string('email', 255);
-            $table->string('mobil', 255);
-            $table->integer('horario');
-            $table->integer('localidad');
-            $table->integer('lenguaje');
-            $table->integer('so');
+            $table->string('mobil', 255)->nullable($value = true);
+            $table->integer('horario')->nullable($value = true);
+            $table->integer('localidad')->nullable($value = true);
+            $table->integer('lenguaje')->nullable($value = true);
+            $table->integer('so')->nullable($value = true);
             $table->timestamps();
         });
     }

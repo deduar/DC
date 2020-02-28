@@ -28,6 +28,12 @@ class RegistryController extends Controller
         $registry = new Registry();
         $registry->name = $request->name;
         $registry->email = $request->email;
+        $registry->mobil = $request->mobil;
+        $registry->horario = $request->horario;
+        $registry->localidad = $request->localidad;
+        $registry->lenguaje = $request->lenguaje;
+        $registry->so = $request->so;
+
         $registry->save();
         return view ('registry.thanks',['name' => $registry->name]);
     }

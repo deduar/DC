@@ -32,7 +32,7 @@
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="mobil">Teléfono</label>
-                        <input type="text" class="form-control" name="mobil" placeholder="Tu númerio de teléfono">
+                        <input type="text" class="form-control" name="mobil" value="" placeholder="Tu númerio de teléfono">
                     </div>
                 </div>
                 <div class="col-sm-6">
